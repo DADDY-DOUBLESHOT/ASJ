@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ASJ">
         <activity
+            android:name=".noticeScreen.noticeScreen"
+            android:exported="false" />
+        <activity
+            android:name=".canteenScreen.Canteen"
+            android:exported="false" />
+        <activity
+            android:name=".blogScreen.Blog"
+            android:exported="false" />
+        <activity
+            android:name=".clubScreen.clubs"
+            android:exported="false" />
+        <activity
+            android:name=".loginScreen.login"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
